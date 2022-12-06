@@ -7,15 +7,16 @@ public class Lab07 extends Applet{
         Background.drawOcean(g);
         Background.drawSand(g);
         //Fish Scene
+        Fish.drawBody(g);
         Fish.drawFin(g);
         Fish.drawTail(g);
-        Fish.drawBody(g);
-        Fish.drawEye(g);
         Fish.drawHead(g);
+        Fish.drawEye(g);
+        Fish.drawMouth(g);
         //Boat Scene
         Boat.drawHull(g);
         Boat.drawMast(g);
-        Boat.drawSail(g);
+        Boat.drawSail1(g);
         Boat.drawRudder(g);
 
 
