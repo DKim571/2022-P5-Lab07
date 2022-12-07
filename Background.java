@@ -7,7 +7,7 @@ public class Background {
 
     }
     public static void drawOcean(Graphics g){
-        g.setColor(new Color(0,105,148));
+        g.setColor(new Color(0,94,184));
         g.fillRect(0,400,1000,250);
 
     }
