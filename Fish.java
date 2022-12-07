@@ -23,6 +23,16 @@ public class Fish {
         triangle2.addPoint(480,500);
         g.setColor(new Color(255,255,255));
         g.fillPolygon(triangle2);
+
+        Polygon parallelogram = new Polygon ();
+        parallelogram.addPoint(452,477);
+        parallelogram.addPoint(504,477);
+        parallelogram.addPoint(509,468);
+        parallelogram.addPoint(457,468);
+        g.setColor(new Color(255,255,255));
+        g.fillPolygon(parallelogram);
+
+
     }
     public static void drawEye(Graphics g){
         g.setColor(new Color(0,0,0));

@@ -16,7 +16,7 @@ public class Lab07 extends Applet{
         //Boat Scene
         Boat.drawHull(g);
         Boat.drawMast(g);
-        Boat.drawSail1(g);
+        Boat.drawSail(g);
         Boat.drawRudder(g);
 
 
